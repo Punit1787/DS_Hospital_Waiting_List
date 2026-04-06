@@ -1,0 +1,2 @@
+# DS_Hospital_Waiting_List
+Implemented a menu-driven hospital waiting list in C using a priority queue built on a singly linked list. Patients are inserted in sorted order by priority (1-5), with higher priority patients treated first. Includes disease-based automatic priority assignment across 4 categories and 12 diseases. Supports add, remove, search, display, filter by disease/priority, waiting time estimation, and queue clearing.
