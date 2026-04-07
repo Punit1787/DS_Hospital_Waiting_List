@@ -205,10 +205,10 @@ void displayAll(queue *q)
     {
         temp = q->front;
         sr = 1;
-        printf("Sr No.\tID\tName\tDisease\tPriority");
+        printf("Sr No.\tID\tName\tDisease\t\tPriority");
         while(temp != NULL)
         {
-            printf("\n%d.\t%s\tID=%d\tDisease=%s\tPriority=%d", sr, temp->name, temp->id, temp->disease, temp->priority);
+            printf("\n%d\t%d\t%s\t%s\t%d",sr,temp->id,temp->name, temp->disease, temp->priority);
             temp = temp->next;
             sr++;
         }
